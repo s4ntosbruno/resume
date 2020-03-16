@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+section {
+  background-color: #0a0000;
+  padding: 8em 0;
+}
+
+section h2,
+section h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+section i {
+  margin: 0 10px;
+  color: #fac8c8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/*Nav*/
+.my-navbar {
+  padding: 0.5em 0;
+  font-size: 1.2em;
+  background: rgba(11, 11, 11, 0.9);
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  margin: auto;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+/*Banner*/
+.banner {
+  background-image: url(img/code.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f1f1f1;
+  margin-bottom: -203px;
+  margin-top: -101px;
+  padding: 50vh 0;
+}
+
+/* - Profile - */
+/* Card */
+
+.my-card {
+  padding: 3em 0;
+}
+.profile-img {
+  width: 18em;
+  height: 18em;
+  border-radius: 50%;
+  border: 10px solid #fac8c8;
+  margin: 0 auto;
+}
+.about {
+  font-size: 1.2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: #0a0000;
+}
+.social {
+  font-size: 2em;
+}
+.social li {
+  display: inline-block;
+}
+.social i {
+  color: #0a0000;
+  font-size: 1.3em;
+  margin: 0 0.5em;
+}
+
+/* Skills */
+.skills {
+  text-align: left;
+  padding: 2em 1em;
+  font-size: 1.1em;
+}
+
+.skill {
+  padding: 0.9em;
+}
+
+.skill-score {
+  float: right;
+  width: 60%;
+}
+
+.progress {
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.progress-bar {
+  background-color: #fac8c8;
+}
+
+.skills i {
+  margin-right: 1em;
+}
