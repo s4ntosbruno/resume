@@ -4,22 +4,15 @@ body {
   font-size: 18px;
 }
 
-section {
-  background-color: #0a0000;
-  padding: 8em 0;
-}
-
 section h2,
 section h3 {
   text-transform: uppercase;
   font-weight: 700;
-  color: #fff;
   margin-bottom: 30px;
 }
 
 section i {
   margin: 0 10px;
-  color: #fac8c8;
 }
 
 ul {
@@ -70,8 +63,19 @@ h2 {
 /* - Profile - */
 /* Card */
 
-.my-card {
+#profile {
+  background-color: #0a0000;
+  padding: 8em 0;
+}
+
+#profile .my-card {
   padding: 3em 0;
+  margin-bottom: 4em;
+}
+
+h2 i,
+.skills i {
+  color: #fac8c8;
 }
 .profile-img {
   width: 18em;
@@ -105,6 +109,10 @@ h2 {
   font-size: 1.1em;
 }
 
+.skills i {
+  margin-right: 1em;
+}
+
 .skill {
   padding: 0.9em;
 }
@@ -127,6 +135,63 @@ h2 {
   background-color: #fac8c8;
 }
 
-.skills i {
-  margin-right: 1em;
+/* Experience */
+
+#experience {
+  background-color: #01000f;
+  padding: 4em 0;
+}
+
+#experience .my-card {
+  color: #01000f;
+  border: none;
+  margin-bottom: 3em;
+}
+
+#experience h2 {
+  color: #fff;
+  margin-bottom: 2em;
+}
+
+#experience .card-header,
+#experience .card-footer {
+  background-color: #e0ffff;
+  color: #01000f;
+  font-weight: bold;
+}
+
+#experience i {
+  color: #e0ffff;
+}
+
+/* Courses */
+
+#courses {
+  background-color: #111100;
+  padding: 4em 0;
+}
+
+#courses h2 {
+  color: #fff;
+  margin-bottom: 2em;
+}
+#courses i {
+  color: #fafad2;
+}
+.course {
+  color: #111100;
+  background-color: white;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 1em;
+  padding: 0.9em;
+}
+
+/* Footer */
+footer {
+  padding: 0.8em;
+  background-color: #111;
+  color: #f1f1f1;
+}
+footer p {
+  margin: 0;
 }
