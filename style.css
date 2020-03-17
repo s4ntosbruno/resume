@@ -32,10 +32,6 @@ h1 {
   font-size: 6em;
 }
 
-h2 {
-  font-size: 2rem;
-}
-
 /*Nav*/
 .my-navbar {
   padding: 0.5em 0;
@@ -96,6 +92,7 @@ h2 {
   margin-top: 2em;
   margin-bottom: 2em;
   color: #0a0000;
+  padding: 0 2em 0 2em;
 }
 .social {
   font-size: 2em;
@@ -194,4 +191,33 @@ footer {
 }
 footer p {
   margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  body {
+    font-size: 14px;
+  }
+  #profile .my-card {
+    padding: 3em 0em;
+    margin: 0 2em 4em 2em;
+  }
+  #experience .my-card {
+    margin: 0 2em 2em 2em;
+  }
+  .course {
+    margin: 0 2em 2em 2em;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .profile-img {
+    width: 14em;
+    height: 14em;
+  }
+  body {
+    font-size: 12px;
+  }
 }
