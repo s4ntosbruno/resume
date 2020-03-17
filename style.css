@@ -3,7 +3,9 @@ body {
   color: #fff;
   font-size: 18px;
 }
-
+section {
+  padding: 4em 0;
+}
 section h2,
 section h3 {
   text-transform: uppercase;
@@ -18,6 +20,12 @@ section i {
 ul {
   list-style: none;
   padding: 0;
+}
+
+section h1,
+section h2 {
+  color: #fff;
+  margin-bottom: 2em;
 }
 
 h1 {
@@ -65,7 +73,6 @@ h2 {
 
 #profile {
   background-color: #0a0000;
-  padding: 8em 0;
 }
 
 #profile .my-card {
@@ -73,7 +80,7 @@ h2 {
   margin-bottom: 4em;
 }
 
-h2 i,
+#profile h2 i,
 .skills i {
   color: #fac8c8;
 }
@@ -100,6 +107,11 @@ h2 i,
   color: #0a0000;
   font-size: 1.3em;
   margin: 0 0.5em;
+}
+
+.progress-bar-animated {
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
 }
 
 /* Skills */
@@ -135,22 +147,16 @@ h2 i,
   background-color: #fac8c8;
 }
 
-/* Experience */
+/* - Experience - */
 
 #experience {
   background-color: #01000f;
-  padding: 4em 0;
 }
 
 #experience .my-card {
   color: #01000f;
   border: none;
   margin-bottom: 3em;
-}
-
-#experience h2 {
-  color: #fff;
-  margin-bottom: 2em;
 }
 
 #experience .card-header,
@@ -168,20 +174,14 @@ h2 i,
 
 #courses {
   background-color: #111100;
-  padding: 4em 0;
 }
 
-#courses h2 {
-  color: #fff;
-  margin-bottom: 2em;
-}
 #courses i {
   color: #fafad2;
 }
 .course {
   color: #111100;
   background-color: white;
-  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.3);
   margin-bottom: 1em;
   padding: 0.9em;
 }
